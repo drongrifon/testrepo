@@ -28,7 +28,7 @@ jobs:
       run: |
         flake8 .
 
-  # Собрать и отправить образ приложения на DockerHub
+  # Собрать и отправить образ приложения на DockerHub_1
   build:
     runs-on: ubuntu-latest
     needs: flake8-check
